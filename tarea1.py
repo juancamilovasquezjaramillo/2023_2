@@ -28,7 +28,7 @@ print(resultado)
 
                         #2. obtenerSuma################################################
 
-def obtenerSumasMenosEficiente(mat):
+def obtenerSuma(mat):
 
     n = len(mat)
     sums = [0] * (2*n - 1)  # Lista para almacenar las sumas de las diagonales
@@ -49,7 +49,7 @@ mat = [[10, 6, 5],
        [14, 30, 92],
        [12, 45, 58]]
 
-print(obtenerSumasMenosEficiente(mat))
+print(obtenerSuma(mat))
 
 
                         #3. obtenerMayorPosicion#######################################
